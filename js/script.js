@@ -1,3 +1,5 @@
+const target = document.querySelector('.wrapper table tr');
+
 const teamList = [
     {
         role: 'TVJO',
@@ -258,7 +260,24 @@ const teamList = [
 
 
 function createTable(e) {
+    for (let i = 0; i < teamList.length; i++) {
+        const tableRows = `
+            <tr>
+                <td class="fname">
+                    ${teamList[i].fname}
+                </td>
+                <td class="lname">
+                    ${teamList[i].lname}
+                </td>
+                <td class="role">
+                    ${teamList[i].role}
+                </td>
+            </tr>
+        `;
+        target.insertAdjacentHTML("afterend", tableRows);
+    };
 
 }
 
-$(document).ready(createTable);
+
+document.addEventListener('DOMContentLoaded', createTable);
