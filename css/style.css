@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
+.wrapper {
+    overflow: auto;
+}
+
 .table {
     font-family: Poppins;
     width: 100%;
     max-width: 900px;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .table * {
