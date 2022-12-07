@@ -4,257 +4,359 @@ const teamList = [
     {
         role: 'TVJO',
         fname: 'Stijn',
-        lname: 'NAESSENS'
+        lname: 'Naessens',
+        email: 'naessensstijn@gmail.com',
+        dep: ''
     },
     {
         role: 'JC',
         fname: 'Maarten',
-        lname: 'De Vlieger'
+        lname: 'De Vlieger',
+        email: 'maarten.de.vlieger@hotmail.be',
+        dep: ''
     },
     {
         role: 'JC',
         fname: 'Maarten',
-        lname: 'Dekocker'
+        lname: 'Dekocker',
+        email: 'maarten.dekocker@gmail.com',
+        dep: ''
     },
     {
         role: 'JC technics',
         fname: 'Yves',
-        lname: "D'Haene"
+        lname: "D'Haene",
+        email: 'yves.dhaene1@telenet.be ',
+        dep: ''
     },
     {
         role: 'JC tactics',
         fname: 'Tom',
-        lname: 'Vanhee'
+        lname: 'Vanhee',
+        email: 'vanheetom@hotmail.com',
+        dep: ''
     },
     {
         role: 'JC doelmannen',
         fname: 'Davy',
-        lname: 'Lammertyn'
+        lname: 'Lammertyn',
+        email: 'keepersschoolgoalies@gmail.com',
+        dep: ''
     },
     {
         role: 'Video analyse',
         fname: 'Tom',
-        lname: 'Vanhee'
+        lname: 'Vanhee',
+        email: 'vanheetom@hotmail.com',
+        dep: ''
     },
     {
         role: 'JC CLUSK',
         fname: 'Jürgen',
-        lname: 'Dierick '
+        lname: 'Dierick ',
+        email: 'jurgen-dierick@telenet.be',
+        dep: ''
     },
     {
         role: 'LTAPD CLUSK spinning',
         fname: 'Jasper',
-        lname: 'Dejonghe'
+        lname: 'Dejonghe',
+        email: 'jasper.dejonghe@telenet.be',
+        dep: ''
     },
-    {
-        role: 'LTAPD CLUSK judo',
-        fname: 'Pieter-Jan',
-        lname: 'Ghyselen'
-    },
+    // {
+    //     role: 'LTAPD CLUSK judo',
+    //     fname: 'Pieter-Jan',
+    //     lname: 'Ghyselen',
+    //     email: '',
+    //     dep: ''
+    // },
     {
         role: 'LTAPD CLUSK revalidatie',
         fname: 'Maxim',
-        lname: 'Ver Eecke '
+        lname: 'Ver Eecke',
+        email: 'maxim.vereecke.2001@gmail.com',
+        dep: ''
+    },
+    {
+        role: 'LTAPD CLUSK aerobic',
+        fname: 'Rieneke',
+        lname: 'Catteeuw',
+        email: '',
+        dep: ''
     },
     {
         role: 'LTPD trainer',
         fname: 'Florin',
-        lname: 'Frunza'
+        lname: 'Frunza',
+        email: 'frunzaflorin@gmail.com',
+        dep: ''
     },
     {
         role: 'LTPD trainer',
         fname: 'Arne',
-        lname: 'Azou'
+        lname: 'Azou',
+        email: 'mario.vancompernolle@proximus.be ',
+        dep: ''
     },
     {
         role: 'Technics',
         fname: 'Ned',
-        lname: 'Charles'
+        lname: 'Charles',
+        email: 'mauricieng@gmail.com',
+        dep: ''
     },
     {
         role: 'Technics',
         fname: 'Yves',
-        lname: "D'Haene"
+        lname: "D'Haene",
+        email: 'yves.dhaene1@telenet.be ',
+        dep: ''
     },
     {
         role: 'Technics',
         fname: 'Florin',
-        lname: 'Frunza'
+        lname: 'Frunza',
+        email: 'frunzaflorin@gmail.com',
+        dep: ''
     },
     {
         role: 'Mandel B',
         fname: 'Louis',
-        lname: 'Boussen'
+        lname: 'Boussen',
+        email: 'louisboussen@msn.com',
+        dep: 'Patrick Meurisse'
     },
     {
         role: 'Mandel B',
         fname: 'Dries',
-        lname: 'Vandenbussche '
+        lname: 'Vandenbussche',
+        email: 'driesvandenbussche@hotmail.com',
+        dep: ''
     },
     {
         role: 'TG',
         fname: 'Stijn',
-        lname: 'Naessens'
+        lname: 'Naessens',
+        email: 'naessensstijn@gmail.com',
+        dep: 'Bouazza Karim'
     },
     {
         role: 'U17A',
         fname: 'Jürgen',
-        lname: 'Dierick '
+        lname: 'Dierick ',
+        email: 'jurgen-dierick@telenet.be',
+        dep: 'Maertens Hans-Peter'
     },
     {
         role: 'U17S',
         fname: 'Sergio',
-        lname: 'Seynhaeve'
+        lname: 'Seynhaeve',
+        email: 'seynhaeve.sergio@telenet.be ',
+        dep: ''
     },
     {
         role: 'U17S',
         fname: 'Ned',
-        lname: 'Charles'
+        lname: 'Charles',
+        email: 'mauricieng@gmail.com',
+        dep: 'KFC Meulebeke'
     },
     {
         role: 'U16A',
         fname: 'Arne',
-        lname: 'Azou'
+        lname: 'Azou',
+        email: 'azouarne@gmail.com',
+        dep: 'Wim Van Laethem'
     },
     {
         role: 'U15A',
         fname: 'Maarten',
-        lname: 'De Vlieger'
+        lname: 'De Vlieger',
+        email: 'maarten.de.vlieger@hotmail.be ',
+        dep: 'Labarque Fritzgerald'
     },
     {
         role: 'U15S',
         fname: 'Christophe',
-        lname: "TJaeckx"
+        lname: "TJaeckx",
+        email: 'tine.houtekier@proximus.be',
+        dep: 'Davy Baert'
     },
     {
         role: 'U14A',
         fname: 'Koen',
-        lname: 'Cardoen'
+        lname: 'Cardoen',
+        email: 'koen.cardoen22@telenet.be ',
+        dep: 'Wim Deprez'
     },
     {
         role: 'U13A1',
         fname: 'Eddy',
-        lname: 'Lagae '
+        lname: 'Lagae',
+        email: 'eddy.lagae@skynet.be',
+        dep: 'Jonas Noppe'
     },
     {
         role: 'U13A2',
         fname: 'Niko',
-        lname: 'Hoornaert'
+        lname: 'Hoornaert',
+        email: 'hoornaert.niko@telenet.be',
+        dep: 'Sammy Tallieu'
     },
     {
         role: 'U13S',
         fname: 'Remco',
-        lname: 'Kentie'
+        lname: 'Kentie',
+        email: 'remcokentie@gmail.com',
+        dep: 'Pieter-Jan Stragier'
     },
     {
         role: 'U13S',
         fname: 'Ricardo',
-        lname: 'Perneel'
+        lname: 'Perneel',
+        email: 'ricardoperneel@hotmail.com ',
+        dep: ''
     },
     {
         role: 'U12A1',
         fname: 'Stefan',
-        lname: 'Dierkens'
+        lname: 'Dierkens',
+        email: 'stefan.dierkens@skynet.be ',
+        dep: 'Steven Van Schuerbeeck'
     },
     {
         role: 'U12A2',
         fname: 'Ned',
-        lname: 'Charles'
+        lname: 'Charles',
+        email: 'mauricieng@gmail.com',
+        dep: 'Tommy Geldof'
     },
     {
         role: 'U11A1',
         fname: 'Yves',
-        lname: "D'Haene"
+        lname: "D'Haene",
+        email: 'yves.dhaene1@telenet.be ',
+        dep: 'Andy Colpaert'
     },
     {
         role: 'U11A2',
         fname: 'Jaron',
-        lname: 'Dumortier '
+        lname: 'Dumortier',
+        email: 'dumortierjaron358@gmail.com',
+        dep: 'Sven Dedecker'
     },
-    {
-        role: 'U11S',
-        fname: 'Dieter',
-        lname: 'Van De Kerckhove '
-    },
+    // {
+    //     role: 'U11S',
+    //     fname: 'Dieter',
+    //     lname: 'Van De Kerckhove',
+    //     email: '',
+    //     dep: ''
+    // },
     {
         role: 'U10A1',
         fname: 'Frederik',
-        lname: 'Schacht'
+        lname: 'Schacht',
+        email: 'frederik.schacht@telenet.be ',
+        dep: 'Christophe Moonen'
     },
     {
         role: 'U10A2',
         fname: 'Kjell',
-        lname: 'Dedeurwaerder'
+        lname: 'Dedeurwaerder',
+        email: 'dedeurwaerder_k@hotmail.com',
+        dep: 'Patrick Dedeurwaarder'
     },
     {
         role: 'U9A1',
         fname: 'Tom',
-        lname: 'De Ryckere '
+        lname: 'De Ryckere',
+        email: 'tom.de.ryckere@telenet.be ',
+        dep: 'Lies Decaesstecker'
     },
     {
         role: 'U9A2',
         fname: 'Kevin',
-        lname: 'Derudder'
+        lname: 'Derudder',
+        email: 'rudderke27@hotmail.com',
+        dep: 'Benny Tack'
     },
     {
         role: 'U9S',
         fname: 'Lode',
-        lname: 'Blomme'
+        lname: 'Blomme',
+        email: 'lodeblomme08@gmail.com',
+        dep: 'Bjorn Blomme'
     },
     {
         role: 'U8A1',
         fname: 'Mick',
-        lname: 'Tavernier'
+        lname: 'Tavernier',
+        email: 'micktavernier@gmail.com',
+        dep: 'Sharon Buyse'
     },
     {
         role: 'U8A2',
         fname: 'Serge',
-        lname: 'Dejonghe'
+        lname: 'Dejonghe',
+        email: 'serge.dejonghe@proximus.be',
+        dep: 'Annelies Wieland'
     },
     {
         role: 'U8S',
         fname: 'Dieter',
-        lname: 'Parmentier'
+        lname: 'Parmentier',
+        email: 'dieterparmentier81@gmail.com ',
+        dep: 'Sead Skoko'
     },
     {
-        role: '',
+        role: 'U6 - U7',
         fname: 'Serge',
-        lname: 'Dejonghe'
+        lname: 'Dejonghe',
+        email: 'serge.dejonghe@proximus.be',
+        dep: ''
     },
     {
-        role: '',
+        role: 'U6 - U7',
         fname: 'Lukas',
-        lname: 'Devos'
+        lname: 'Devos',
+        email: '',
+        dep: ''
     },
     {
-        role: '',
+        role: 'U6 - U7',
         fname: 'Jules',
-        lname: 'Pilet'
+        lname: 'Pilet',
+        email: '',
+        dep: ''
     },
     {
-        role: '',
+        role: 'U6 - U7',
         fname: 'Mathieu',
-        lname: 'Dumon'
+        lname: 'Dumon',
+        email: 'mathieu.dumon2002@gmail.com',
+        dep: ''
     },
     {
-        role: '',
+        role: 'U6 - U7',
         fname: 'Andreas',
-        lname: 'Terryn'
+        lname: 'Terryn',
+        email: '',
+        dep: ''
     },
     {
-        role: '',
+        role: 'U6 - U7',
         fname: 'Rein',
-        lname: 'Verschuere'
+        lname: 'Verschuere',
+        email: 'rein.verschuere@gmail.com ',
+        dep: ''
     },
     {
-        role: '',
+        role: 'dames-meisjes',
         fname: 'Carlos',
-        lname: 'Werbrouck'
-    },
-    {
-        role: '',
-        fname: 'Davy',
-        lname: 'Lammertyn'
+        lname: 'Werbrouck',
+        email: 'carlos.werbrouck@telenet.be',
+        dep: 'Tatjana Huyghebaert'
     }
 ];
 
@@ -271,6 +373,12 @@ function createTable(e) {
                 </td>
                 <td class="role">
                     ${teamList[i].role}
+                </td>
+                <td class="email">
+                    ${teamList[i].email}
+                </td>
+                <td class="delegate">
+                    ${teamList[i].dep}
                 </td>
             </tr>
         `;

@@ -3,21 +3,25 @@
 .table {
     font-family: Poppins;
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column;  */
+}
+
+.table * {
+    font-size: 14px;
 }
 
 .table tr {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 
 .table td,
 .table th {
-    flex: 1;
+    flex: 1 0;
     text-align: left;
     padding: 5px;
     
